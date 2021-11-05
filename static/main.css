@@ -1,0 +1,63 @@
+:root {
+	--theme-background: #FFF;
+
+	--text-color: #161616;
+};
+
+*,
+*::after,
+*::before {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Inter";
+	font-size: 16px;
+	color: var(--text-color);
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100vh;
+}
+
+.card-image {
+	height: 478px;
+}
+
+.card-title {
+	font-family: "Inter Bold";
+}
+
+.headline {
+	font-family: "Inter Bold";
+	margin: 0;
+}
+
+.description {
+	color: #657482;
+}
+
+.content {
+	margin-top: 60px;
+}
+
+.logo {
+	width: 64px;
+	height: 100%;
+} 
+
+.nav-link {
+	font-family: "Inter Regular";
+	color: var(--text-color);
+}
+
+.nav-link:hover {
+	background: #161616;
+	font-family: "Inter Bold";
+	color: #FFF;
+}
