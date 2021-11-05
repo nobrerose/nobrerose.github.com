@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Nobre Rose</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<!-- Style -->
+	<link rel="stylesheet" type="text/css" href="./static/main.css" />
+	<link rel="stylesheet" type="text/css" href="./static/font.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet"> 
+
+	<!-- Script -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+
+	<main>
+		
+		<!-- Appbar -->
+		<header>
+			<nav class="white">
+				<div class="container nav-wrapper">
+					<img class="logo" src="./assets/logo.png" />
+					<ul class="right">
+						<li>
+							<a class="nav-link" class="waves-effect" href="https://bit.ly/nobrerose">
+								Contato
+							</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+
+		<!-- Body content -->
+		<div class="container">
+			<div class="row">
+				
+				<div class="content col s12 m12 l12">
+					<h1 class="headline">Veja nosso catálogo</h1>
+					<h4 class="description">
+						Estilo e qualidade para mulheres poderosas
+					</h4>
+
+					<br />
+					<br />
+
+					<div class="card col s12 m3 l3">
+				        <div class="card-image">
+				          <img src="./assets/product/1.jpg" />
+				          <a onclick="getContact(75)" class="btn-floating halfway-fab waves-effect waves-light red">
+				          	<i class="material-icons">
+				          		shopping_cart
+				          	</i>
+				          </a>
+				        </div>
+				        <div class="card-content">
+				          <span class="card-title">
+				          	Calça jogger em linho
+				          </span>
+				          <p>Ref: 75</p>
+				        </div>
+      				</div>
+
+					<div class="card col s12 m3 l3">
+				        <div class="card-image">
+				          <img src="./assets/product/2.jpg" />
+				          <a onclick="getContact(180)" class="btn-floating halfway-fab waves-effect waves-light red">
+				          	<i class="material-icons">
+				          		shopping_cart
+				          	</i>
+				          </a>
+				        </div>
+				        <div class="card-content">
+				          <span class="card-title">
+				          	Calça em linho c/ cinto
+				          </span>
+				          <p>Ref: 180</p>
+				        </div>
+      				</div>
+
+					<div class="card col s12 m3 l3">
+				        <div class="card-image">
+				          <img src="./assets/product/3.jpg" />
+				          <a onclick="getContact(112)" class="btn-floating halfway-fab waves-effect waves-light red">
+				          	<i class="material-icons">
+				          		shopping_cart
+				          	</i>
+				          </a>
+				        </div>
+				        <div class="card-content">
+				          <span class="card-title">
+				          	Calça jogger em bengaline
+				          </span>
+				          <p>Ref: 112</p>
+				        </div>
+      				</div>
+
+					<div class="card col s12 m3 l3">
+				        <div class="card-image">
+				          <img src="./assets/product/4.jpg" />
+				          <a onclick="getContact(121)" class="btn-floating halfway-fab waves-effect waves-light red">
+				          	<i class="material-icons">
+				          		shopping_cart
+				          	</i>
+				          </a>
+				        </div>
+				        <div class="card-content">
+				          <span class="card-title">
+				          	Calça jogger em bengaline est.
+				          </span>
+				          <p>Ref: 121</p>
+				        </div>
+      				</div>
+
+					<div class="card col s12 m3 l3">
+				        <div class="card-image">
+				          <img src="./assets/product/5.jpg" />
+				          <a onclick="getContact(144)" class="btn-floating halfway-fab waves-effect waves-light red">
+				          	<i class="material-icons">
+				          		shopping_cart
+				          	</i>
+				          </a>
+				        </div>
+				        <div class="card-content">
+				          <span class="card-title">
+				          	Calça jogger em flanela
+				          </span>
+				          <p>Ref: 144</p>
+				        </div>
+      				</div>
+
+					<div class="card col s12 m3 l3">
+				        <div class="card-image">
+				          <img src="./assets/product/6.jpg" />
+				          <a onclick="getContact(147)" class="btn-floating halfway-fab waves-effect waves-light red">
+				          	<i class="material-icons">
+				          		shopping_cart
+				          	</i>
+				          </a>
+				        </div>
+				        <div class="card-content">
+				          <span class="card-title">
+				          	Calça jogger em malha suede
+				          </span>
+				          <p>Ref: 147</p>
+				        </div>
+      				</div>
+
+					<div class="card col s12 m3 l3">
+				        <div class="card-image">
+				          <img src="./assets/product/7.jpg" />
+				          <a onclick="getContact(96)" class="btn-floating halfway-fab waves-effect waves-light red">
+				          	<i class="material-icons">
+				          		shopping_cart
+				          	</i>
+				          </a>
+				        </div>
+				        <div class="card-content">
+				          <span class="card-title">
+				          	T-shirt em malha suede
+				          </span>
+				          <p>Ref: 96</p>
+				        </div>
+      				</div>
+
+					<div class="card col s12 m3 l3">
+				        <div class="card-image">
+				          <img src="./assets/product/8.jpg" />
+				          <a onclick="getContact(191)" class="btn-floating halfway-fab waves-effect waves-light red">
+				          	<i class="material-icons">
+				          		shopping_cart
+				          	</i>
+				          </a>
+				        </div>
+				        <div class="card-content">
+				          <span class="card-title">
+				          	Blusa suede manga longa
+				          </span>
+				          <p>Ref: 191</p>
+				        </div>
+      				</div>
+
+					<div class="card col s12 m3 l3">
+				        <div class="card-image">
+				          <img src="./assets/product/9.jpg" />
+				          <a onclick="getContact(192)" class="btn-floating halfway-fab waves-effect waves-light red">
+				          	<i class="material-icons">
+				          		shopping_cart
+				          	</i>
+				          </a>
+				        </div>
+				        <div class="card-content">
+				          <span class="card-title">
+				          	Regata suede básica
+				          </span>
+				          <p>Ref: 192</p>
+				        </div>
+      				</div>
+
+					<div class="card col s12 m3 l3">
+				        <div class="card-image">
+				          <img src="./assets/product/10.jpg" />
+				          <a onclick="getContact(102)" class="btn-floating halfway-fab waves-effect waves-light red">
+				          	<i class="material-icons">
+				          		shopping_cart
+				          	</i>
+				          </a>
+				        </div>
+				        <div class="card-content">
+				          <span class="card-title">
+				          	Regata c/ amaração em suede
+				          </span>
+				          <p>Ref: 102</p>
+				        </div>
+      				</div>
+
+					<div class="card col s12 m3 l3">
+				        <div class="card-image">
+				          <img src="./assets/product/11.jpg" />
+				          <a onclick="getContact(133)" class="btn-floating halfway-fab waves-effect waves-light red">
+				          	<i class="material-icons">
+				          		shopping_cart
+				          	</i>
+				          </a>
+				        </div>
+				        <div class="card-content">
+				          <span class="card-title">
+				          	Shorts boxer em viscolinho
+				          </span>
+				          <p>Ref: 133</p>
+				        </div>
+      				</div>
+
+					<div class="card col s12 m3 l3">
+				        <div class="card-image">
+				          <img src="./assets/product/12.jpg" />
+				          <a onclick="getContact(97)" class="btn-floating halfway-fab waves-effect waves-light red">
+				          	<i class="material-icons">
+				          		shopping_cart
+				          	</i>
+				          </a>
+				        </div>
+				        <div class="card-content">
+				          <span class="card-title">
+				          	Shorts em linho c/ cinto
+				          </span>
+				          <p>Ref: 97</p>
+				        </div>
+      				</div>
+
+				</div>
+			</div>
+		</div>
+
+		<!-- Extra -->
+		<div class="fixed-action-btn">
+		  <a href="https://bit.ly/nobrerose" class="btn-floating btn-large red">
+		    <i class="large material-icons">email</i>
+		  </a>
+		</div>
+
+	</main>
+
+	<script type="text/javascript" src="./static/main.js"></script>
+
+</body>
+</html>
