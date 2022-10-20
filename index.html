@@ -56,7 +56,28 @@
 				<h5>Nosso catálogo</h5>
 			</center>
 
+			<br />
+
 			<div class="row">
+
+			  <div v-for="n in 183">
+
+
+			    <div class="col s12 m4 l3">
+			      <div class="card">
+			        <div class="card-image">
+			          <img class="materialboxed" :src="`img/cosmeticos/${n}.png`">
+			          <span class="card-title">{{ n }}</span>
+			          <a class="btn-floating halfway-fab waves-effect waves-light red" href="https://bit.ly/cantinhonobrerose">
+			          	<i class="material-icons">local_mall</i>
+			          </a>
+			        </div>
+			      </div>
+			    </div>
+
+			  </div>
+            
+
 				<center>
 					<br />
 					<div class="preloader-wrapper active">
@@ -79,6 +100,7 @@
 	</div>
 
 	<script type="text/javascript" src="./script/vue.prod.js"></script>
+	<script type="text/javascript" src="./script/materialize.min.js"></script>
 	<script type="text/javascript" src="./script/main.js"></script>
 
 </body>
